@@ -4,25 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sahil Sayani: Software Engineer &amp; AI Builder</title>
-  <meta name="description" content="Sahil Sayani is a software engineer and AI builder, currently doing an MSc in AI at the University of Luxembourg. Projects, experience and contact." />
-  <meta name="theme-color" content="#F3F1EC" />
+  <meta name="description" content="Sahil Sayani is a software engineer and AI builder, currently doing an MSc in AI at the University of Luxembourg. Selected work, experience and contact." />
+  <meta name="theme-color" content="#0e0e0c" />
   <link rel="canonical" href="https://sahilsayani.me/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Sahil Sayani: Software Engineer & AI Builder" />
   <meta property="og:description" content="Full-stack and AI products: HyprFit, Cadence, Exam Pilot and more." />
   <meta property="og:url" content="https://sahilsayani.me/" />
-  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="loading">
+  <div class="loader" aria-hidden="true">
+    <div class="loader-name"><span>Sahil</span> <span><em>Sayani</em></span></div>
+    <div class="loader-row">
+      <span class="mono muted">Portfolio — 2026</span>
+      <span class="loader-count">0</span>
+    </div>
+    <div class="loader-bar"></div>
+  </div>
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="nav" id="top">
-    <a class="logo" href="#top" aria-label="Sahil Sayani, home">SS<span>.</span></a>
+    <a class="logo" href="#top" aria-label="Sahil Sayani, home">Sahil Sayani</a>
     <nav aria-label="Primary">
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
         <span></span><span></span>
@@ -31,265 +38,239 @@
         <li><a href="#work">Work</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#about">About</a></li>
-        <li><a class="pill pill-dark" href="#contact">Let's talk <span aria-hidden="true">→</span></a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <span class="nav-meta mono" id="clock" aria-hidden="true">Luxembourg</span>
   </header>
 
   <main id="main">
     <!-- HERO -->
     <section class="hero">
-      <div class="orb orb-a" aria-hidden="true"></div>
-      <div class="orb orb-b" aria-hidden="true"></div>
+      <div class="hero-top">
+        <p class="mono muted reveal">Software Engineer &amp; AI Builder</p>
+        <p class="mono muted reveal">MSc AI, University of Luxembourg</p>
+      </div>
 
-      <div class="hero-inner">
-        <p class="eyebrow reveal"><span class="dot"></span> Open to new opportunities</p>
-        <h1 class="hero-title reveal">Sahil<br />Sayani<span class="accent">.</span></h1>
+      <h1 class="hero-title reveal">
+        Building <em>thoughtful</em><br />
+        software &amp; <em>intelligent</em><br />
+        systems.
+      </h1>
 
-        <div class="hero-grid">
-          <p class="hero-lede reveal">
-            Software engineer &amp; AI builder. I ship <mark class="hl hl-lime">full-stack products</mark>
-            and <mark class="hl hl-lilac">agentic AI systems</mark>, from React Native apps to ML pipelines.
-            Currently doing an MSc in AI at the University of Luxembourg.
+      <div class="hero-grid">
+        <figure class="portrait reveal">
+          <!-- PHOTO: replace src with assets/photo.jpg once added -->
+          <img src="assets/photo-placeholder.svg" alt="Portrait of Sahil Sayani" width="800" height="1000" />
+        </figure>
+
+        <div class="hero-copy">
+          <p class="lede reveal">
+            I'm Sahil, an engineer who moves between product and code. I've led enterprise rollouts
+            for 120+ field reps at Godrej, built ML pipelines, and now I build AI products of my own,
+            from adaptive fitness coaching to agentic assistants.
           </p>
-
-          <figure class="portrait reveal">
-            <!-- PHOTO: replace src with assets/photo.jpg once added -->
-            <img src="assets/photo-placeholder.svg" alt="Portrait of Sahil Sayani" width="800" height="1000" />
-            <figcaption class="chip chip-float"><span class="pin" aria-hidden="true">●</span> Based in Luxembourg</figcaption>
-          </figure>
-
-          <div class="hero-cta reveal">
-            <a class="pill pill-blue" href="#work">See my work <span aria-hidden="true">↓</span></a>
-            <a class="pill pill-ghost" href="#contact">Get in touch</a>
+          <div class="hero-links reveal">
+            <a class="link-arrow" href="#work">Selected work <span aria-hidden="true">↘</span></a>
+            <a class="link-arrow" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
+
+      <dl class="figures">
+        <div class="reveal"><dt>92%</dt><dd>Daily active usage on a field-sales rollout</dd></div>
+        <div class="reveal"><dt>₹14 Cr</dt><dd>Projected margin gains from pricing ML</dd></div>
+        <div class="reveal"><dt>87%</dt><dd>AI pipeline accuracy, up from 68%</dd></div>
+        <div class="reveal"><dt>94.8%</dt><dd>Accuracy on NYC crime prediction</dd></div>
+      </dl>
     </section>
 
-    <!-- MARQUEE -->
-    <div class="marquee" aria-label="Core technologies">
+    <div class="marquee" aria-hidden="true">
       <div class="marquee-track">
-        <span>Python</span><i>✦</i><span>TypeScript</span><i>✦</i><span>React Native</span><i>✦</i>
-        <span>FastAPI</span><i>✦</i><span>Supabase</span><i>✦</i><span>PyTorch</span><i>✦</i>
-        <span>Node.js</span><i>✦</i><span>LLM Agents</span><i>✦</i><span>Vue.js</span><i>✦</i>
-        <span>Redis</span><i>✦</i><span>scikit-learn</span><i>✦</i>
+        <span>Engineer <em>&amp;</em> Builder —</span><span>Engineer <em>&amp;</em> Builder —</span>
       </div>
     </div>
 
-    <!-- STATS -->
-    <section class="stats" aria-label="Highlights">
-      <div class="stat c-blue reveal"><b>92%</b><span>daily active usage on a field-sales rollout</span></div>
-      <div class="stat c-lime reveal"><b>120+</b><span>sales reps onboarded in the Tamil Nadu pilot</span></div>
-      <div class="stat c-coral reveal"><b>₹14Cr</b><span>projected margin gains from pricing ML</span></div>
-      <div class="stat c-lilac reveal"><b>68→87%</b><span>AI pipeline accuracy after tuning</span></div>
-    </section>
-
     <!-- WORK -->
     <section class="section" id="work">
-      <div class="section-head">
-        <p class="label">(01) Selected work</p>
-        <h2 class="reveal">Things I've built<span class="accent">.</span></h2>
-        <p class="section-sub reveal">Products I've built myself, mostly AI, mostly shipped.</p>
-      </div>
+      <header class="section-head">
+        <span class="mono muted">01</span>
+        <h2 class="reveal">Selected <em>work</em></h2>
+        <p class="mono muted">2023 — Present</p>
+      </header>
 
-      <div class="work-grid">
-        <article class="tile tile-lg c-blue reveal">
-          <header><span class="num">01</span><span class="tag-dark">Founder · Apr 2025 – now</span></header>
-          <div class="tile-body">
+      <ol class="index">
+        <li class="row reveal" data-color="#c9a96e" tabindex="0">
+          <span class="row-num mono">01</span>
+          <div class="row-main">
             <h3>HyprFit</h3>
-            <p>An AI fitness &amp; nutrition coach. Plans adapt every week to body composition, intake and progress. Daily calories are tuned by a genetic-algorithm-style optimiser.</p>
+            <p>An AI fitness and nutrition coach. Plans adapt every week to body composition, intake and progress, and daily calories are tuned by a genetic-algorithm-style optimiser.</p>
           </div>
-          <footer>
-            <ul class="tags"><li>React Native</li><li>Supabase</li><li>OpenAI / OpenRouter</li><li>Google Fit</li></ul>
-            <span class="metric">AI<small>coach</small></span>
-          </footer>
-        </article>
-
-        <article class="tile c-lime reveal">
-          <header><span class="num">02</span><span class="tag-dark">2026 – now</span></header>
-          <div class="tile-body">
+          <span class="row-kind">AI Product · Founder</span>
+          <span class="row-stack mono">React Native, Supabase, OpenAI</span>
+          <span class="row-year mono">2025 —</span>
+        </li>
+        <li class="row reveal" data-color="#b8c4b0" tabindex="0">
+          <span class="row-num mono">02</span>
+          <div class="row-main">
             <h3>Cadence</h3>
-            <p>A proactive AI assistant (PWA). An agent orchestrator works toward your goals and deadlines: it plans, checks progress, and re-plans without being asked.</p>
+            <p>A proactive personal assistant built as a progressive web app. An agent orchestrator plans against your goals and deadlines, checks progress and re-plans without being asked.</p>
           </div>
-          <footer>
-            <ul class="tags"><li>PWA</li><li>Agents</li><li>Loop engineering</li></ul>
-          </footer>
-        </article>
-
-        <article class="tile c-lilac reveal">
-          <header><span class="num">03</span><span class="tag-dark">2026 – now</span></header>
-          <div class="tile-body">
+          <span class="row-kind">Agentic AI</span>
+          <span class="row-stack mono">PWA, Agents, LLMs</span>
+          <span class="row-year mono">2026 —</span>
+        </li>
+        <li class="row reveal" data-color="#d9cbb3" tabindex="0">
+          <span class="row-num mono">03</span>
+          <div class="row-main">
             <h3>Exam Pilot</h3>
             <p>An AI tutor that teaches your syllabus through generated whiteboard-style video lessons. It also makes cheat sheets, quizzes and study plans from your course files.</p>
           </div>
-          <footer>
-            <ul class="tags"><li>LLMs</li><li>Video gen</li><li>EdTech</li></ul>
-          </footer>
-        </article>
-
-        <article class="tile c-coral reveal">
-          <header><span class="num">04</span><span class="tag-dark">Jan – Mar 2024</span></header>
-          <div class="tile-body">
+          <span class="row-kind">EdTech</span>
+          <span class="row-stack mono">LLMs, Video generation</span>
+          <span class="row-year mono">2026 —</span>
+        </li>
+        <li class="row reveal" data-color="#c7a59a" tabindex="0">
+          <span class="row-num mono">04</span>
+          <div class="row-main">
             <h3>SneakerZ</h3>
-            <p>A cross-platform sneaker store with real-time AR try-on, Stripe payments and live inventory.</p>
+            <p>A cross-platform sneaker store with real-time AR try-on, Stripe checkout and live inventory.</p>
           </div>
-          <footer>
-            <ul class="tags"><li>React Native</li><li>AR</li><li>Stripe</li><li>MongoDB</li></ul>
-          </footer>
-        </article>
-
-        <article class="tile c-sky reveal">
-          <header><span class="num">05</span><span class="tag-dark">IIT Madras</span></header>
-          <div class="tile-body">
+          <span class="row-kind">Mobile · AR</span>
+          <span class="row-stack mono">React Native, Stripe, MongoDB</span>
+          <span class="row-year mono">2024</span>
+        </li>
+        <li class="row reveal" data-color="#a9b6c2" tabindex="0">
+          <span class="row-num mono">05</span>
+          <div class="row-main">
             <h3>Crime Prediction</h3>
-            <p>An ML classifier trained on the NYC crime dataset, using engineered time and location features.</p>
+            <p>A classifier trained on the NYC crime dataset, using engineered time and location features. It reached 94.8% accuracy.</p>
           </div>
-          <footer>
-            <ul class="tags"><li>scikit-learn</li><li>Pandas</li></ul>
-            <span class="metric">94.8<small>% acc</small></span>
-          </footer>
-        </article>
-
-        <article class="tile tile-wide c-ink reveal">
-          <header><span class="num">06</span><span class="tag-light">Dec 2023</span></header>
-          <div class="tile-body">
+          <span class="row-kind">Machine Learning</span>
+          <span class="row-stack mono">scikit-learn, Pandas</span>
+          <span class="row-year mono">IIT Madras</span>
+        </li>
+        <li class="row reveal" data-color="#d6d0c4" tabindex="0">
+          <span class="row-num mono">06</span>
+          <div class="row-main">
             <h3>Grocers</h3>
             <p>A full-stack grocery ordering platform with JWT auth, modular APIs and async email notifications.</p>
           </div>
-          <footer>
-            <ul class="tags tags-light"><li>Vue.js</li><li>Flask</li><li>SQLAlchemy</li><li>Celery + Redis</li></ul>
-          </footer>
-        </article>
-      </div>
+          <span class="row-kind">Full-stack</span>
+          <span class="row-stack mono">Vue, Flask, Celery, Redis</span>
+          <span class="row-year mono">2023</span>
+        </li>
+      </ol>
 
-      <a class="more-link reveal" href="https://github.com/SahilSayani" target="_blank" rel="noopener">More on GitHub <span aria-hidden="true">↗</span></a>
+      <a class="link-arrow more reveal" href="https://github.com/SahilSayani" target="_blank" rel="noopener">More on GitHub <span aria-hidden="true">↗</span></a>
     </section>
 
     <!-- EXPERIENCE -->
     <section class="section" id="experience">
-      <div class="section-head">
-        <p class="label">(02) Experience</p>
-        <h2 class="reveal">What I've done so far<span class="accent">.</span></h2>
-      </div>
+      <header class="section-head">
+        <span class="mono muted">02</span>
+        <h2 class="reveal">The road <em>so far</em></h2>
+        <p class="mono muted">Experience</p>
+      </header>
 
-      <div class="exp-grid">
-        <article class="exp reveal">
-          <div class="exp-top c-lilac"><span class="exp-year">2026</span><span class="exp-loc">Luxembourg</span></div>
-          <div class="exp-body">
-            <h3>ArtaiCare</h3>
-            <p class="role">Software Developer · Part-time</p>
+      <div class="timeline">
+        <article class="job reveal">
+          <div class="job-when"><span class="serif">2026</span><span class="mono muted">Present</span></div>
+          <div class="job-body">
+            <h3>ArtaiCare <span class="muted">· Luxembourg</span></h3>
+            <p class="role mono">Software Developer, Part-time</p>
             <ul>
-              <li>Building and shipping features for <b>ArtaiCare Academy</b>, the company's MOOC platform.</li>
-              <li>Working with agentic coding tools: I review, test and validate AI-generated code before it's merged.</li>
+              <li>Build and ship features for ArtaiCare Academy, the company's MOOC platform.</li>
+              <li>Use agentic coding tools, reviewing, testing and validating AI-generated code before it's merged.</li>
             </ul>
           </div>
         </article>
 
-        <article class="exp reveal">
-          <div class="exp-top c-blue"><span class="exp-year">2024<em>–26</em></span><span class="exp-loc">Mumbai</span></div>
-          <div class="exp-body">
-            <h3>Godrej Consumer Products</h3>
-            <p class="role">Project Lead, GPC · Senior Executive (IT)</p>
+        <article class="job reveal">
+          <div class="job-when"><span class="serif">2024</span><span class="mono muted">— 2026</span></div>
+          <div class="job-body">
+            <h3>Godrej Consumer Products <span class="muted">· Mumbai</span></h3>
+            <p class="role mono">Project Lead, GPC · Senior Executive (IT)</p>
             <ul>
-              <li>Led the redesign and rollout of Godrej Pet Care's <b>Sales Force Automation</b> and <b>Distributor Management</b> systems, from design to deployment.</li>
-              <li>Pilot with 120+ reps: <b>92% DAU</b> and a <b>&lt;1% critical-bug rate</b>.</li>
-              <li>Built adoption dashboards that lifted adoption by <b>25%</b>. Turned field interviews into a backlog of 15+ features.</li>
+              <li>Led the redesign and rollout of Godrej Pet Care's Sales Force Automation and Distributor Management systems, from design to deployment.</li>
+              <li>Ran a pilot with 120+ sales reps that reached 92% daily active usage with under 1% critical bugs.</li>
+              <li>Built adoption dashboards that lifted adoption by 25%, and turned field research into a backlog of 15+ features.</li>
             </ul>
           </div>
         </article>
 
-        <article class="exp reveal">
-          <div class="exp-top c-lime"><span class="exp-year">2024</span><span class="exp-loc">Mumbai</span></div>
-          <div class="exp-body">
-            <h3>Godrej Consumer Products</h3>
-            <p class="role">Software Development Intern</p>
+        <article class="job reveal">
+          <div class="job-when"><span class="serif">2024</span><span class="mono muted">Apr — Jul</span></div>
+          <div class="job-body">
+            <h3>Godrej Consumer Products <span class="muted">· Mumbai</span></h3>
+            <p class="role mono">Software Development Intern</p>
             <ul>
-              <li>Worked on <b>Project POINT</b>, a price-optimisation engine for FMCG SKUs.</li>
-              <li>Feature engineering and regularisation tuning raised validation accuracy from <b>62% to 78%</b>.</li>
-              <li>The model projected <b>~₹14 Cr</b> in potential margin gains for FY25.</li>
+              <li>Worked on Project POINT, a price-optimisation engine for FMCG SKUs.</li>
+              <li>Raised validation accuracy from 62% to 78%. The model projected ~₹14 Cr in margin gains for FY25.</li>
             </ul>
           </div>
         </article>
 
-        <article class="exp reveal">
-          <div class="exp-top c-coral"><span class="exp-year">2023<em>–24</em></span><span class="exp-loc">Remote</span></div>
-          <div class="exp-body">
-            <h3>QuicSolv Technologies</h3>
-            <p class="role">Software Developer Intern</p>
+        <article class="job reveal">
+          <div class="job-when"><span class="serif">2023</span><span class="mono muted">— 2024</span></div>
+          <div class="job-body">
+            <h3>QuicSolv Technologies <span class="muted">· Remote</span></h3>
+            <p class="role mono">Software Developer Intern</p>
             <ul>
-              <li>Built scalable <b>FastAPI</b> services with JWT, Celery queues and Redis.</li>
-              <li>Integrated Deepgram speech-to-text for real-time transcription.</li>
-              <li>Raised end-to-end pipeline accuracy from <b>68% to 87%</b>.</li>
+              <li>Built FastAPI services with JWT, Celery task queues and Redis.</li>
+              <li>Integrated Deepgram speech-to-text and raised pipeline accuracy from 68% to 87%.</li>
             </ul>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ABOUT / EDUCATION / SKILLS -->
+    <!-- ABOUT -->
     <section class="section" id="about">
-      <div class="section-head">
-        <p class="label">(03) About</p>
-        <h2 class="reveal">Engineer who ships<span class="accent">.</span></h2>
-        <p class="section-sub reveal">
-          I combine product thinking with engineering. I've led enterprise rollouts used by 120+ field reps,
-          and I spend nights building AI products of my own. Right now I'm most interested in agent orchestration,
-          adaptive systems and AI in education.
-        </p>
-      </div>
+      <header class="section-head">
+        <span class="mono muted">03</span>
+        <h2 class="reveal">Education <em>&amp;</em> craft</h2>
+        <p class="mono muted">About</p>
+      </header>
 
-      <div class="edu-list">
-        <div class="edu reveal">
-          <span class="edu-when">2026 – now</span>
-          <div><h3>University of Luxembourg</h3><p>Master in Information &amp; Computer Sciences, AI track</p></div>
-          <span class="chip c-lilac">MSc</span>
+      <div class="about-grid">
+        <div class="edu-list">
+          <div class="edu reveal">
+            <span class="mono muted">2026 —</span>
+            <div><h3>University of Luxembourg</h3><p>Master in Information &amp; Computer Sciences, AI track</p></div>
+          </div>
+          <div class="edu reveal">
+            <span class="mono muted">2021 — 25</span>
+            <div><h3>IIT Madras</h3><p>B.Sc. Programming &amp; Data Science. Led the best-performing software project in my cohort</p></div>
+          </div>
+          <div class="edu reveal">
+            <span class="mono muted">2020 — 24</span>
+            <div><h3>K. J. Somaiya College of Engineering</h3><p>B.Tech Computer Engineering, CGPA 8.9 / 10</p></div>
+          </div>
         </div>
-        <div class="edu reveal">
-          <span class="edu-when">2021 – 2025</span>
-          <div><h3>IIT Madras</h3><p>B.Sc. Programming &amp; Data Science. Led the best-performing software project in my cohort</p></div>
-          <span class="chip c-lime">B.Sc</span>
-        </div>
-        <div class="edu reveal">
-          <span class="edu-when">2020 – 2024</span>
-          <div><h3>K. J. Somaiya College of Engineering</h3><p>B.Tech Computer Engineering, CGPA 8.9 / 10</p></div>
-          <span class="chip c-sky">B.Tech</span>
-        </div>
-      </div>
 
-      <div class="skills">
-        <div class="skill-card reveal">
-          <h4>Languages</h4>
-          <ul class="tags"><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>Java</li><li>C++</li><li>SQL</li></ul>
-        </div>
-        <div class="skill-card reveal">
-          <h4>Frameworks</h4>
-          <ul class="tags"><li>React</li><li>React Native</li><li>Vue.js</li><li>Node / Express</li><li>FastAPI</li><li>Flask</li><li>Celery</li></ul>
-        </div>
-        <div class="skill-card reveal">
-          <h4>Data &amp; Cloud</h4>
-          <ul class="tags"><li>Supabase</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Redis</li><li>Firebase</li><li>Railway</li></ul>
-        </div>
-        <div class="skill-card reveal">
-          <h4>AI / ML</h4>
-          <ul class="tags"><li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>NumPy</li><li>Pandas</li><li>LLM APIs</li><li>Agentic workflows</li></ul>
-        </div>
+        <dl class="skills">
+          <div class="reveal"><dt class="mono muted">Languages</dt><dd>Python, TypeScript, JavaScript, Java, C++, SQL</dd></div>
+          <div class="reveal"><dt class="mono muted">Frameworks</dt><dd>React, React Native, Vue, Node / Express, FastAPI, Flask, Celery</dd></div>
+          <div class="reveal"><dt class="mono muted">Data &amp; Cloud</dt><dd>Supabase / PostgreSQL, MySQL, MongoDB, Redis, Firebase, Railway</dd></div>
+          <div class="reveal"><dt class="mono muted">AI / ML</dt><dd>PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, LLM APIs, agentic workflows</dd></div>
+        </dl>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section class="contact" id="contact">
-      <p class="label label-dark">(04) Contact</p>
-      <h2 class="contact-title reveal">Let's build<br />something<span>.</span></h2>
-      <a class="contact-mail reveal" href="mailto:Sahilsayani7@gmail.com">Sahilsayani7@gmail.com <span aria-hidden="true">↗</span></a>
-      <div class="contact-links reveal">
-        <a class="pill pill-dark" href="https://www.linkedin.com/in/sahil-sayani-1696751b7/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="pill pill-dark" href="https://github.com/SahilSayani" target="_blank" rel="noopener">GitHub ↗</a>
-      </div>
+      <p class="mono muted reveal">04 · Contact</p>
+      <h2 class="contact-title reveal">Let's build something<br /><em>worth using.</em></h2>
+      <a class="contact-mail magnetic reveal" href="mailto:Sahilsayani7@gmail.com">Sahilsayani7@gmail.com</a>
+      <ul class="contact-links reveal">
+        <li><a class="link-arrow magnetic" href="https://www.linkedin.com/in/sahil-sayani-1696751b7/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a class="link-arrow magnetic" href="https://github.com/SahilSayani" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></li>
+      </ul>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer mono">
     <span>© <span id="year">2026</span> Sahil Sayani</span>
     <a href="#top">Back to top ↑</a>
   </footer>
